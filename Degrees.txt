@@ -1,0 +1,9 @@
+BSc General: Major in Computer Science,0,1,2,3
+BSc General: Minor in Computer Science,0,1,2,3
+BSc General: Major in Information Technology,1,2,5,6
+BSc General: Minor in Information Technology,1,2,5,6
+BSc Computer Science (Special),0,1,2,3,4,5,6,7,8,9
+BSc Information Technology (Special),0,1,2,3,4,5,6,7,8,9
+BSc Computer Science with Management (Special),0,1,2,3,8,9,10,11,12,13
+BSc Information Technology with Management (Special),1,2,5,6,8,9,10,11,12,13
+*
