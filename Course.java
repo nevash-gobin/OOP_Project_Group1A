@@ -5,7 +5,8 @@ public class Course implements Programme{
     private int credits;                    //stores amt of credits
     private String preReq;                  //stores any prereq
     private String description;             //stores description of course
-    private String type;                    // stores if Foundation, Elective or Core
+    private String type;                    // stores if Foundation, Elective or  Core
+    //comment
 
     public Course(String courseCode, String courseTitle, int semester, int credits, String preReq, String description, String type){
         this.courseCode = courseCode;
