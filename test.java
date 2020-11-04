@@ -5,22 +5,10 @@ public class test {
         DCIT dcit = new DCIT();
         dcit.loadCourses();
         dcit.loadDegrees();
-        System.out.println("BSc General: Major in Computer Science");
-        System.out.println(dcit.getAllCoursesFor(0));
-        System.out.println("BSc General: Minor in Computer Science");
-        System.out.println(dcit.getAllCoursesFor(1));
-        System.out.println("BSc General: Major in Information Technology");
-        System.out.println(dcit.getAllCoursesFor(2));
-        System.out.println("BSc General: Minor in Information Technology");
-        System.out.println(dcit.getAllCoursesFor(3));
-        System.out.println("BSc Computer Science (Special)");
-        System.out.println(dcit.getAllCoursesFor(4));
-        System.out.println("BSc Information Technology (Special)");
-        System.out.println(dcit.getAllCoursesFor(5));
-        System.out.println("BSc Computer Science with Management (Special)");
-        System.out.println(dcit.getAllCoursesFor(6));
-        System.out.println("BSc Information Technology with Management (Special)");
-        System.out.println(dcit.getAllCoursesFor(7));
+        
+        for (Programme i: dcit.getDegrees()){
+            System.out.println(i.getCourseDetails());
+        }
 
         /* to get
         ‣ BSc General: Major in Computer Science (0)

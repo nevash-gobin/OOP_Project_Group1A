@@ -44,7 +44,7 @@ public class DCIT {
               String st2;
               while (!(st2 = bRDF.readLine()).equals("*")){
                   String split[] = st2.split(",", 0);
-                  Degree d1 = new Degree();
+                  Degree d1 = new Degree(split[0]);
                   for(int i = 1; i < split.length; i++){
                       d1.addCourse(courses.get(Integer.parseInt(split[i])));
                   }
@@ -55,6 +55,10 @@ public class DCIT {
         catch(IOException ioe) {
             System.out.println("Trouble reading from the file");
         }
+    }
+
+    public ArrayList<Programme> getDegrees (){
+        return degrees;
     }
 
     public String getAllCoursesFor(int degreeNum){
