@@ -15,7 +15,7 @@ public class Degree implements Programme{
 
     public String getCourseDetails(){           // returns a string containing deatils of all coursess in degree
         String str = "";
-        str += name;
+        str += name +"\n";
         if (courses.isEmpty()){
             return str;
         }
