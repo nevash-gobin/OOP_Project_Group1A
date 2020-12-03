@@ -1,3 +1,14 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package AdvisorApp;
+
+/**
+ *
+ * @author Adesh Maraj
+ */
 public class Course implements Programme{
     private String courseCode;
     private String courseTitle;
