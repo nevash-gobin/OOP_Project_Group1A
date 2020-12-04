@@ -1,1 +1,0 @@
-Run AdvisorApp.jar
